@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './style.css';
 import './bootstrap.min.css';
 import { Helmet } from 'react-helmet';
+import { Navbar, Nav,  } from 'react-bootstrap';
 
 class App extends Component {
   render() {
@@ -10,7 +11,6 @@ class App extends Component {
         <Helmet>
           <title>Gala - Organize and Join Travels in a Snap</title>
           <meta name="description" content="Organize and Join Travels in a Snap" />
-          <script src="./../public/bootstrap.js"></script>
         </Helmet>
         <div className="">
           <div className="background-image"></div>
@@ -19,21 +19,17 @@ class App extends Component {
               <div className="row no-gutters">
 
                     <div className="col">
-                      <nav className="navbar navbar-expand-sm navbar-light bg-white">
-                        <a className="navbar-brand" href="#">
-                          <div id="brand"></div>
-                        </a>
-                          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                          <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                          <div className="navbar-nav ml-auto">
-                            <a className="nav-item " href="#">HOME <span className="sr-only">(current)</span></a>
-                            <a className="nav-item " href="#">EVENTS</a>
-                            <a className="nav-item " href="#">FAQ</a>
-                          </div>
-                        </div>
-                      </nav>
+                      <Navbar bg="light" className="navbar" expand="lg">
+                        <Navbar.Brand href="#home"></Navbar.Brand>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+                          <Nav className="mr-auto">
+                            <Nav.Link href="#">Home</Nav.Link>
+                            <Nav.Link href="#">Events</Nav.Link>
+                            <Nav.Link href="#">FAQs</Nav.Link>
+                          </Nav>
+                        </Navbar.Collapse>
+                      </Navbar>;
                     </div>
               </div>
                 <div className="row no-gutters" >
@@ -64,7 +60,7 @@ class App extends Component {
                             </div>
                             <div className="row justify-content-center" >
                               <div className="vid-container">
-                              <iframe src="https://www.youtube.com/embed/P22gcb4YHso?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1;start=5" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen className="video"></iframe>
+                              <iframe title="GalaVideo" src="https://www.youtube.com/embed/P22gcb4YHso?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1;start=5" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen className="video"></iframe>
                               </div>
                               </div>
                             <div className="row justify-content-center" id="glyphs">
