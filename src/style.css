@@ -487,5 +487,10 @@ template {
     margin-top: -12%;
   }
 }
+.header-text {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */

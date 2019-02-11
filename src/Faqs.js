@@ -4,7 +4,7 @@ import './bootstrap.min.css';
 import { Helmet } from 'react-helmet';
 import { Navbar, Nav } from 'react-bootstrap';
 
-class App extends Component {
+class Faqs extends Component {
   render() {
     return (
       <div>
@@ -24,7 +24,7 @@ class App extends Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                           <Nav className="mr-auto">
-                            <Nav.Link href="/">Home</Nav.Link>
+                          <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/#/events">Events</Nav.Link>
                             <Nav.Link href="/#/faqs">FAQs</Nav.Link>
                           </Nav>
@@ -52,7 +52,7 @@ class App extends Component {
                               <div className="col">
 
                                   <h1 className="display-5" id="slogan-statement">
-                                    <div className="brown-colored"> CONNECT</div> 
+                                    <div className="brown-colored"> CONNECT da</div> 
                                     AND <div className="brown-colored"> JOIN </div>
                                     OTHER <br />TRAVELLERS IN A <div className="brown-colored"> SNAP</div>
                                   </h1>
@@ -106,4 +106,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Faqs;
