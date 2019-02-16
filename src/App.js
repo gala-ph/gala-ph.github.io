@@ -24,9 +24,9 @@ class App extends Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                           <Nav className="mr-auto">
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/#/events">Events</Nav.Link>
-                            <Nav.Link href="/#/faqs">FAQs</Nav.Link>
+                            <Nav.Link href="/" className="nav-item">Home</Nav.Link>
+                            <Nav.Link href="/#/events" className="nav-item">Events</Nav.Link>
+                            <Nav.Link href="/#/faqs" className="nav-item">FAQs</Nav.Link>
                           </Nav>
                         </Navbar.Collapse>
                       </Navbar>;
