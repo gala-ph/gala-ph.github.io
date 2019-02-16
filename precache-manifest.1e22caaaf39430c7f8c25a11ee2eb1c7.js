@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/galawhitelogo.532061dc.png"
   },
   {
-    "revision": "a9f835445c51047d17aad784714efb33",
-    "url": "/static/media/galalogo.a9f83544.svg"
+    "revision": "bc4958b829996200774ddc5688b443b5",
+    "url": "/static/media/galalogo.bc4958b8.svg"
   },
   {
     "revision": "9be7f5c3804a619d1d3cbab10e6bd4ec",
@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "80986f78a18c9066b79b",
-    "url": "/static/js/main.80986f78.chunk.js"
+    "revision": "7a6f70df13017b26b5da",
+    "url": "/static/js/main.7a6f70df.chunk.js"
   },
   {
-    "revision": "b6dddad1f70587cec510",
-    "url": "/static/js/1.b6dddad1.chunk.js"
+    "revision": "28283e432325acb9ecee",
+    "url": "/static/js/1.28283e43.chunk.js"
   },
   {
-    "revision": "80986f78a18c9066b79b",
-    "url": "/static/css/main.6c414b5b.chunk.css"
+    "revision": "7a6f70df13017b26b5da",
+    "url": "/static/css/main.3b80aba3.chunk.css"
   },
   {
-    "revision": "ed241bca53bc365a0af9d3a500b12b3c",
+    "revision": "2c730b12a8b89e91da7ea540fa0ca22d",
     "url": "/index.html"
   }
 ];
